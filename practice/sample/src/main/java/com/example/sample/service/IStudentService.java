@@ -11,6 +11,6 @@ public interface IStudentService {
      StudentDto saveStudent(Student s);
 
      //get
-     List<StudentDto> getStudent();
+     List<StudentDto> getStudent() throws StudentNotFoundException;
 
 }
